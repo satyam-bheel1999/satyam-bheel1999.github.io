@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(48, 3, 34);
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-bar{
+    background-color: rgba(17, 86, 235, 0.425);
+    border-radius: 30px;
+}
+.nav-bar ul{
+    overflow: auto;
+}
+.nav-bar li{
+    float: left;
+list-style: none;
+margin: 15px 160px;
+}
+.nav-bar li a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-bar li a:hover{
+    color: red;
+}
+.main{
+    height: 75vh;
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+    top: 50px;
+    position: relative;
+    border: 2px solid red;
+
+}
+.intro{
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+.text{
+   font-size: 48px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.linkedin{
+    height: 30px; 
+}
+.insta{
+    height: 30px;
+    padding-left: 15px;
+}
+#project{
+    height: 120vh;
+    width: 100vw;
+    background-image: url(/web.png);
+    position: relative;
+    top: 80px;
+}
+#contact{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E1F2F7;
+    border: 2px solid black;
+    position: relative;
+    top: 0;
+}
+.info{
+    border: 2px solid red;
+    height: 150px;
+}
+.text-1{
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.text-1:hover{
+    text-shadow: 10px 10px 5px #8686b1;
+}
+.text-2{
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 110px;
+}
+.text-2 a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+    font-size: 25px;
+   
+}
+.text-2 a:hover{
+    border-bottom: 2px solid blue; 
+    /* text-shadow: 
+    2px 2px 4px blue,
+    4px 4px 4px blue,
+    6px 6px 4px blue; */
+
+}
+.link{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.e-mail{
+    display: flex;
+    flex-direction: column;
+
+}
+.e-mail span{
+    padding-bottom: 22px;
+    font-size: 18px;
+    font-weight: 100;
+    color: gray;
+}
+.e-mail a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 100;
+    font-size: 19px;
+    color: black;
+}
+.e-mail a:hover{
+    border-bottom: 2px solid blue; 
+    color: blue;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 110px;
+}
+.resume span{
+    padding-bottom: 22px;
+    font-size: 18px;
+    font-weight: 100;
+    color: gray;
+}
+.resume a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 100;
+    font-size: 19px;
+    color: black;
+}
+.resume a:hover{
+    border-bottom: 2px solid blue; 
+    color: blue;
+}
+.img-1{
+    position: relative;
+    left: 200px;
+}
